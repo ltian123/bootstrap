@@ -1,0 +1,64 @@
+bootstrap
+	前端框架
+		
+	框架:
+		别人写好的,能直接拿来用的
+		对某个或者某些技术的封装
+		将一些常用的、复杂的代码封装成
+		(jar、js、css)
+		简化开发
+		
+	特点:
+		基于jQuery框架开发的
+		在jQuery的基础上进行了更为个性化和人性化的完善
+		形成了一套自己独有的网站风格,并且兼容绝大部分jQuery插件
+		
+	优势:
+		支持响应式开发
+		丰富的组件
+		界面高端大气上档次
+		已经应用于电视的互动管理后台
+		
+		
+		
+	学习的是:
+		我们不需要去了解bootstrap的原理
+		学习的是如何快速的使用一个全新的前端框架
+		
+		
+	使用:
+		<!-- 新 Bootstrap 核心 CSS 文件 -->
+		<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		
+		<!-- 可选的Bootstrap主题文件（一般不用引入） -->
+		<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+		
+		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+		<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+		
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		
+	组成:
+		bootstrap/
+		├── less/		less文件
+		├── js/			某一个特定功能的单独的js文件
+		├── fonts/		字体文件
+		├── dist/
+		│   ├── css/	核心css文件
+		│   ├── js/		核心js文件
+		│   └── fonts/	核心字体文件
+		└── docs/
+		    └── examples/ 文档以及部分demo
+	
+	栅格系统
+		是实现了响应式布局的核心
+		将浏览器屏幕按照宽度等分成12份
+		用一些特定的class样式来确定容器div的宽度
+	
+	
+	
+	
+		
+		
+		
